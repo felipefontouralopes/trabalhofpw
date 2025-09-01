@@ -1,0 +1,50 @@
+body {
+    margin: 0; /* Reduz o espaçamento das margens na página */
+    background-color: rgb(224, 222, 222); /* Define a cor de fundo geral do corpo da página */
+}
+
+header{
+    position: fixed; /* Define que a posição do cabeçalho será fixa */
+    top: 0; /* Posiciona no topo da página */          
+    left: 0;         
+    width: 100%;
+    text-align: center;
+    background-color: rgb(46, 3, 102);
+    color: white;
+}
+
+.menu{
+    position: fixed; /* Define que a posição do menu será fixa */
+    top: 80px; /* Posiciona abaixo do cabeçalho */
+    left: 0;
+    width: 100%;
+    background-color: rgb(172, 196, 241);
+}
+
+ul{
+    list-style-type: none; /* Remove os marcadores de lista */
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+a{
+    padding: 5px 20px;
+    text-decoration: none; /* Remove os sublinhados em link */
+    color: #640606;
+}
+
+
+div{
+    background-color: white; /* Define um fundo branco para as divs com os tópicos*/
+    border-radius: 10px; /* Estiliza o arredondamento dos cantos*/
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#sobremim {
+    margin-top: 140px; /* Adicione o espaço superior apenas à primeira div para manter alinhamento*/
+}
